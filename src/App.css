@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .App {
-  text-align: center;
+ text-align: center;
 }
 
 .App-logo {
@@ -35,4 +37,139 @@
   to {
     transform: rotate(360deg);
   }
+}
+h3{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.panel{
+  background-color: black;
+}
+nav{
+  background-color:black;
+}
+img{
+  width:30px;
+  height:30px;
+}
+#collasible-nav-dropdown{
+  color: white;
+ 
+ 
+}
+.navbar-toggler-icon{
+  background-color: red;
+}
+.picture{
+  width: 100%;
+  height:100vh;
+  background-image: url('./assets/background.jpg');
+  background-position:top;
+}
+h2{
+  font-size: 1vw;
+  color:black;
+}
+.content{
+ 
+  width: 70%;
+  height:70%;
+ margin: auto;
+  background-color: white;
+}
+.content2{
+  padding: 2%;
+}
+.content1{
+  width:100%;
+  height: 80%;
+  margin: auto;
+}
+button{
+  
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  width:40vw;
+  height:8vh;
+}
+.next{
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card{
+  width: 300px;
+  height: 500px;
+  margin:15px;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+
+}
+.card{
+  text-align: left;
+  
+}
+.launch{
+
+}
+h5{
+  font-size: 1vw;
+  padding: 10px;
+}
+.pro{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  
+  overflow: auto;
+}
+.footer{
+  
+  
+}
+.quote{
+ text-align: left;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border:1px solid #E8E5E5;
+  width:80vw;
+  box-shadow: 1px #E8E5E5;
+}
+p{
+  padding: 10px;
+}
+#btn{
+  border:1px solid darkgrey;
+  background-color: darkgrey;
+  
+  width: 18vw;
+ 
+}
+.list{
+ 
+  display: flex;
+  flex-direction: row;
+ 
+}
+.img{
+  background-color:#FAF7F7;
+}
+.l{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#btn:hover{
+  background-color: black;
+}
+element.style{
+  background-color: blue;
+}
+.mr-auto{
+  
 }
