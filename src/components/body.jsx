@@ -1,6 +1,6 @@
 import React from 'react'
 import "../App.css"
-import Logo from '../assets/temp.png'
+import Logo from '../assets/spry.png'
 export default function body() {
     return (
         <div>
@@ -16,8 +16,22 @@ export default function body() {
            <p>We are the country`s first holistic wellness flatform for men.we talk to men, Listen to them and understand their needs</p>
            
             
-                <img src={Logo} style={{width:"60vw",height:"40vh"}} alt=""/>
-           
+              <h2>What`s your concern?</h2>
+           <div className="spry">
+               
+               <div className="rect" >
+                   <img src={Logo}  style={{width:"60%",height:"60%"}} alt=""/>
+                   <p>Hair</p>
+               </div>
+               <div className="rect"  >
+               <img src={Logo} style={{width:"60%",height:"60%"}} alt=""/>
+               <p>Skin</p>
+               </div>
+               <div className="rect" >
+               <img src={Logo} style={{width:"60%",height:"60%"}} alt=""/>
+               <p>Weight</p>
+               </div>
+           </div>
             </div>
         
         
