@@ -20,15 +20,15 @@ export default function body() {
            <div className="spry">
                
                <div className="rect" >
-                   <img src={Logo}  style={{width:"60%",height:"60%"}} alt=""/>
+                   <img src={Logo}  style={{width:"60%",height:"55%"}} alt=""/>
                    <p>Hair</p>
                </div>
                <div className="rect"  >
-               <img src={Logo} style={{width:"60%",height:"60%"}} alt=""/>
+               <img src={Logo} style={{width:"60%",height:"55%"}} alt=""/>
                <p>Skin</p>
                </div>
                <div className="rect" >
-               <img src={Logo} style={{width:"60%",height:"60%"}} alt=""/>
+               <img src={Logo} style={{width:"60%",height:"55%"}} alt=""/>
                <p>Weight</p>
                </div>
            </div>
