@@ -51,7 +51,7 @@ export default function Landingpage() {
             <button> Get Started</button>
         </div>
         <div className="next">
-        <h1>How it Works</h1>
+        <h2>How it Works</h2>
         </div>
         <Footer/>
            </React.Fragment>
