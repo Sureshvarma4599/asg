@@ -50,7 +50,8 @@ export default class Products extends Component {
             color: "#050000",
           },
         };
-        const rzp1 = new window.Razorpay(options);
+       
+        var rzp1 = new window.Razorpay(options);
         rzp1.open();
       }
       
